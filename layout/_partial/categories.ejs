@@ -2,7 +2,7 @@
     <div class="archive-top">
         <div class="main-title-bar">
             <div class="main-title-dot"></div>
-            <h1 class="article-title"><%= __('archive_a') %></h1>
+            <h1 class="article-title"><%= __('categories') %></h1>
         </div>
     </div>
     <% site.categories.each( function(category){ %>
@@ -10,7 +10,7 @@
         <div class="dot-wrapper">
             <div class="dot"></div>
         </div>
-        <div class="year-num" ><%= category.name %></div>
+        <div class="year-num" style="width: auto;"><%= category.name %></div>
     </a>
     <% }); %>
 </div>
